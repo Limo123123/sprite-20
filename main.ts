@@ -1,3 +1,6 @@
+input.onPinPressed(TouchPin.P0, function () {
+    game.addScore(1000)
+})
 input.onButtonPressed(Button.A, function () {
     if (Sprite.get(LedSpriteProperty.X) == 2) {
         game.addScore(1)
